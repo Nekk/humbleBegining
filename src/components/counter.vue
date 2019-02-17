@@ -2,9 +2,9 @@
   <div class="Counter">
     <v-app id="someID">
       <div>
-        <h1>This is a countesssxsr</h1>
+        <h2>This is a countesssxsr</h2>
         Counter: {{count}}
-        <v-btn color="success" @click="count += 10">Increment</v-btn>
+        <v-btn color="success" @click="incrementCount">Increment</v-btn>
       </div>
     </v-app>
   </div>
@@ -16,6 +16,11 @@
     data(){
       return{
         count: 1
+      }
+    },
+    methods: {
+      incrementCount() {
+          this.count += 1
       }
     }
   }

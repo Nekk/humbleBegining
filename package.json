@@ -12,6 +12,7 @@
     "material-design-icons-iconfont": "^4.0.4",
     "sleep-ms": "^2.0.1",
     "vue": "^2.5.21",
+    "vue-router": "^3.0.2",
     "vuetify": "^1.4.2"
   },
   "devDependencies": {
